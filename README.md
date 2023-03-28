@@ -1,9 +1,9 @@
 # AndroidLead VirtusaJPMC
 
 Solved the challange using ViewModel, gson, Room and okhttp.
-!["List of Schools"](/Users/shuchi19/AndroidStudioProjects/androidlead-virtusajpmc/S20240323ShuchiSinhaNYCSchools/Screen1.png) 
+!["List of Schools"](https://gitlab.com/coding-challenges5900613/androidlead-virtusajpmc/-/blob/main/S20240323ShuchiSinhaNYCSchools/Screen1.png) 
 
-!["SAT Scores"](/Users/shuchi19/AndroidStudioProjects/androidlead-virtusajpmc/S20240323ShuchiSinhaNYCSchools/Screen2.png)
+!["SAT Scores"](https://gitlab.com/coding-challenges5900613/androidlead-virtusajpmc/-/blob/main/S20240323ShuchiSinhaNYCSchools/Screen2.png)
 
 
 
