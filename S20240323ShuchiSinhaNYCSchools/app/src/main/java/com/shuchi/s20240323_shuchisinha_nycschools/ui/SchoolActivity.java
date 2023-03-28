@@ -19,8 +19,8 @@ import com.shuchi.s20240323_shuchisinha_nycschools.pojo.School;
 import java.util.Objects;
 
 public class SchoolActivity extends AppCompatActivity {
-
     private School school;
+    //private SATScoresViewModel satScoresViewModel;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -28,12 +28,11 @@ public class SchoolActivity extends AppCompatActivity {
         setContentView(R.layout.activity_new_school);
         Toolbar toolbar = findViewById(R.id.school_toolbar);
         setSupportActionBar(toolbar);
-      //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-
         //School object to setup the page
         school = getIntent().getParcelableExtra("School");
+
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         ImageButton directionsButton = findViewById(R.id.directionsButton);
         directionsButton.setOnClickListener(v -> {

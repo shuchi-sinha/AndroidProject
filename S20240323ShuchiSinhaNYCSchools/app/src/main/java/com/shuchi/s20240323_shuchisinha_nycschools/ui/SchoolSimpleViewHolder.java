@@ -18,13 +18,10 @@ public class SchoolSimpleViewHolder  extends RecyclerView.ViewHolder    {
     private SchoolSimpleViewHolder(View itemView) {
         super(itemView);
 
-        itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), SchoolActivity.class);
-                intent.putExtra("School", school);
-                v.getContext().startActivity(intent);
-            }
+        itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(v.getContext(), SchoolActivity.class);
+            intent.putExtra("School", school);
+            v.getContext().startActivity(intent);
         });
 
         schoolItemView = itemView.findViewById(R.id.textView);
